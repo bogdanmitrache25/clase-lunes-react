@@ -11,7 +11,6 @@ import { SextoContador } from "./SextoContador";
 import { UltimoContador } from "./UltimoContador";
 import { ListadoApp } from "./ListadoApp";
 import { ListadoCosasPendientes } from "./ListadoCosasPendientes";
-import { UseEffectyFetch } from "./UseEffectyFetch";
 import { AgregarTarea } from "./components/AgregarTarea";
 import { UsersApp } from "./components/UsersApp";
 

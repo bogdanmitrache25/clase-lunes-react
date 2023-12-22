@@ -13,6 +13,8 @@ import { ListadoApp } from "./ListadoApp";
 import { ListadoCosasPendientes } from "./ListadoCosasPendientes";
 import { AgregarTarea } from "./components/AgregarTarea";
 import { UsersApp } from "./components/UsersApp";
+import { PhotosApp } from "./components/PhotosApp";
+import { Comentarios } from "./components/Comentarios";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <>
@@ -49,6 +51,9 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     {/* <ListadoCosasPendientes /> */}
     <hr />
     <UsersApp />
+
+    <PhotosApp />
     <hr />
+    <Comentarios />
   </>
 );

@@ -5,3 +5,9 @@ html {
   color: white;
   padding: 1%;
 }
+
+header {
+  font-size: 2cm;
+  background-color: #ff9999;
+  border-radius: 8px;
+}

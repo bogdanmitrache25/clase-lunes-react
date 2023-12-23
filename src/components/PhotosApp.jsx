@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "./Apis.css";
 
 export const PhotosApp = () => {
   const [photos, setPhotos] = useState([]);
@@ -30,7 +31,7 @@ export const PhotosApp = () => {
 
   return (
     <>
-      <h1>Fotos</h1>
+      <h1 className="fotos">Fotos</h1>
       <button onClick={handleFetch}>Llamar a la Api</button>
       <div style={{ display: "flex", flexWrap: "wrap" }}>
         {photos.length > 0 && renderImages()}

@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import "./Apis.css";
 
 export const UsersApp = () => {
   const [users, setUsers] = useState([]);
@@ -27,7 +28,7 @@ export const UsersApp = () => {
 
   return (
     <>
-      <h1>Usuarios</h1>
+      <h1 className="usuarios">Usuarios</h1>
       <ol>
         {users.map((user) => (
           <li key={user.id}>

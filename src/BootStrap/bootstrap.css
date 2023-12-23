@@ -1,13 +1,13 @@
-body,
-html {
+.aplicaciondehooks {
   text-align: center;
   background-color: black;
-  color: white;
+  color: rgb(255, 255, 255);
   padding: 1%;
-}
-
-header {
   font-size: 1cm;
   background-color: #3238a7;
   border-radius: 8px;
+}
+
+button {
+  margin: 5px;
 }

@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "./Apis.css";
 
 export const Comentarios = () => {
   const [comentarios, setComentarios] = useState([]);
@@ -21,7 +22,7 @@ export const Comentarios = () => {
 
   return (
     <>
-      <h1>Comentarios</h1>
+      <h1 className="comentarios">Comentarios</h1>
       <ol>
         {comentarios.map((comentario) => (
           <li key={comentario.id}>

@@ -15,6 +15,7 @@ import { AgregarTarea } from "./components/AgregarTarea";
 import { UsersApp } from "./components/UsersApp";
 import { PhotosApp } from "./components/PhotosApp";
 import { Comentarios } from "./components/Comentarios";
+import { HooksApp } from "./BootStrap/HooksApp";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <>
@@ -51,9 +52,14 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     {/* <ListadoCosasPendientes /> */}
     <hr />
     <UsersApp />
-
+    <hr />
     <PhotosApp />
     <hr />
     <Comentarios />
+    <hr />
+    <hr />
+    <HooksApp />
+    <hr />
+    <hr />
   </>
 );
